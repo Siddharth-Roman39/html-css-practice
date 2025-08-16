@@ -1,0 +1,13 @@
+body {
+  font-family: Montserrat;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
