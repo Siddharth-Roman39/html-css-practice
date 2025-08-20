@@ -1,0 +1,48 @@
+.flex {
+  display: flex;
+  background-color: blueviolet;
+  height: 50px;
+  align-items: center;
+}
+
+.left {
+color: white;
+font-weight: bold;
+padding-left: 5px;
+}
+
+.middle {
+padding-left: 50px;
+padding-right: 50px;
+flex: 1;
+max-width: 800px;
+}
+
+.right {
+ padding-right: 5px;
+}
+
+.download {
+  background-color: blueviolet;
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+ 
+}
+
+.text-box {
+  border-radius: 20px;
+  border: none;
+  height: 20px;
+  width: 100%;
+  padding: 5px;
+  padding-left: 20px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2), -3px -3px 3px rgba(0, 0, 0, 0.2);
+}
+
+div {
+  font-family: Arial;
+}
