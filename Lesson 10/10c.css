@@ -1,0 +1,49 @@
+.thumbnail {
+  height: 150px;
+  width: 250px;
+  object-fit: left;
+}
+
+.video {
+  width: 600px;
+}
+
+.video-thumbnail {
+  display: inline-block;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-info {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.video-title {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+
+.video-author {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
