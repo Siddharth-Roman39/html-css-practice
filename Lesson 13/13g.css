@@ -1,0 +1,69 @@
+div {
+  font-family: Arial;
+}
+
+.tweet {
+  display: flex;
+  align-items: center;
+}
+
+.cat-photo {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.tweet-content {
+  margin-left: 10px;
+  line-height: 25px;
+}
+
+.user-name {
+  display: flex;
+}
+
+.website {
+  font-weight: bold;
+}
+
+.user {
+  color: rgb(96, 96, 96);
+  margin-left: 5px ;
+}
+
+.description {
+  font-size: 14px;
+  width: 300px;
+}
+
+.video {
+  display: flex;
+  border: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: rgb(200, 200, 200);
+  align-items: center;
+  margin-left: 75px;
+  margin-top: 15px;
+}
+
+.video-preview {
+background-color: rgb(200, 200, 200);
+width: 75px;
+height: 75px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+flex-shrink: 0;
+}
+
+.yt-description {
+line-height: 20px;
+margin-left: 10px;
+
+}
+
+.yt-com {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
