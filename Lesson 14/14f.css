@@ -1,0 +1,61 @@
+.pic {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: rgb(44, 44, 44);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.drawer {
+  position: fixed;
+  margin-left: 62px;
+  background-color: rgb(69, 69, 69);
+  top: 0px;
+  bottom: 0px;
+  width: 150px;
+}
+
+.trending {
+  color: rgb(186, 186, 186);
+  line-height: 30px;
+  margin-left: 10px;
+}
+
+.info-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.info {
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.plus {
+  color: rgb(186, 186, 186);
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+div {
+  font-family: Arial;
+}
+
+body {
+  height: 3000px;
+}
